@@ -21,7 +21,7 @@ module.exports = {
   jsxBracketSameLine: false,
 
   // always add parentheses on arrow functions (x) => { }
-  arrowParens: "avoid",
+  arrowParens: "always",
 
   // ignore pragma, run prettier on all files
   requirePragma: false,

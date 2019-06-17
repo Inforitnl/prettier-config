@@ -1,6 +1,6 @@
 module.exports = {
   // line length
-  printWidth: 100,
+  printWidth: 120,
 
   // indentation type
   useTabs: false,
@@ -21,7 +21,7 @@ module.exports = {
   jsxBracketSameLine: false,
 
   // always add parentheses on arrow functions (x) => { }
-  arrowParens: "always",
+  arrowParens: "avoid",
 
   // ignore pragma, run prettier on all files
   requirePragma: false,

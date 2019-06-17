@@ -1,6 +1,6 @@
-# @mastermindzh/prettier-config
+# @inforit/prettier-config
 
-My preferred prettier configuration.
+Inforit's preferred prettier configuration.
 
 <!-- toc -->
 
@@ -15,11 +15,11 @@ My preferred prettier configuration.
 
 Simply install the package with npm:
 
-`npm install --save-dev @mastermindzh/prettier-config`
+`npm install --save-dev @inforit/prettier-config`
 
 ## Configuration
 
-Configuring your project to use `@mastermindzh/prettier-config` can be done in several ways.  
+Configuring your project to use `@inforit/prettier-config` can be done in several ways.  
 The easiest is the [package.json](#packagejson) solution, the most extensible is the [.prettierrc.js](#prettierrcjs) version.
 
 ### package.json
@@ -28,7 +28,7 @@ Simply add a "prettier" key with the package name:
 
 ```json
 {
-  "prettier": "@mastermindzh/prettier-config"
+  "prettier": "@inforit/prettier-config"
 }
 ```
 
@@ -38,7 +38,7 @@ This solution requires you to put a `.prettierrc.js` file at the root of your pr
 
 ```js
 module.exports = {
-  ...require("@mastermindzh/prettier-config"),
+  ...require("@inforit/prettier-config"),
   // optional overrides:
   jsxBracketSameLine: true
 };

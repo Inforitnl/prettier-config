@@ -1,7 +1,7 @@
 {
-  "name": "@mastermindzh/prettier-config",
+  "name": "@inforit/prettier-config",
   "version": "1.0.0",
-  "description": "My preferred prettier config",
+  "description": "Inforit's preferred prettier config",
   "main": "index.js",
   "scripts": {
     "patch": "npm --no-git-tag-version version patch",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mastermindzh/prettier-config.git"
+    "url": "git+https://github.com/Inforitnl/prettier-config/prettier-config.git"
   },
   "keywords": [
     "prettier",
@@ -26,7 +26,7 @@
   "author": "Rick van Lieshout",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Mastermindzh/prettier-config/issues"
+    "url": "https://github.com/Inforitnl/prettier-config/issues"
   },
-  "homepage": "https://github.com/Mastermindzh/prettier-config#readme"
+  "homepage": "https://github.com/Inforitnl/prettier-config#readme"
 }
